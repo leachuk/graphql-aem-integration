@@ -1,0 +1,68 @@
+###########
+# Eclipse
+###########
+
+# We must include the .project files so that we can switch between branches in Eclipse
+#.project
+# We must NOT include the .metadata, .settings and .classpath files, these are workstation dependent
+.classpath
+.settings
+.metadata
+# Ignore Sonar generated files
+.sonar
+# Ignore log files (jcr.log etc)
+**.log
+.settings\*
+.settings/*
+*.prefs
+*.org.eclipse.core.resources.prefs
+*.classpath
+###########
+# packages
+###########
+
+*.jar
+*.war
+*.class
+*/target/**
+*/target/*
+/target/**
+
+###########
+# AEM
+###########
+
+**/content/src/main/content/jcr_root/libs
+.vlt
+.vlt-sync.log
+.vlt-sync-config.properties
+content/dam
+**/content/bin
+**/bundle/bin
+
+###########
+# IDEs
+###########
+
+*.iml
+.idea/
+.vscode
+*.brackets.json
+
+###########
+# OS X
+###########
+.DS_Store
+
+###########
+# React Apps
+###########
+
+yarn.lock
+react-apps-chunks
+
+####Jenv#####
+.java-version
+
+#####SonarLint########
+.sonarlint

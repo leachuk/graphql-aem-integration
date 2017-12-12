@@ -1,0 +1,8 @@
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OsgiConfig"
+    auth.annonymous="{Boolean}true"
+    auth.http="preemptive"
+    auth.http.realm="Sling (Development)"
+    auth.sudo.cookie="sling.sudo"
+    auth.sudo.parameter="sudo"
+    sling.auth.requirements="[+/libs/granite/oauth/content/authorization, -/content]"/>

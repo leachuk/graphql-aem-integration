@@ -1,0 +1,29 @@
+type Link {
+  url: String!
+  description: String!
+}
+
+type BigHeader {
+  title: String!
+  subtitle: String!
+}
+
+type AboutUs {
+  title: String!
+  body: String!
+}
+
+type KablamoHomepage {
+  bigHeader: BigHeader
+}
+
+
+type Query {
+  allLinks: [Link]
+  kabHomepage: KablamoHomepage
+}
+
+
+schema {
+  query: Query
+}
