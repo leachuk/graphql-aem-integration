@@ -1,6 +1,9 @@
-# CAPI AEM POC Project
-
+# GraphQL AEM Integration Project
 This a content package project generated using the AEM Multimodule Lazybones template.
+
+## Introduction
+Once this project is deployed to an AEM instance, you can make graphQL queries against the server like:
+`http://localhost:4502/bin/graphql?query={kabHomepage{bigHeader{title,subtitle}}}` 
 
 ## Building
 
